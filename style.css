@@ -1,0 +1,74 @@
+#settings{
+    display: none;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#board{
+    max-width: fit-content;
+    height: auto;
+    display: grid;
+    gap: 40px;
+    margin: 40px;
+    align-items: center;
+    justify-items: center;
+}
+.tile{
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-size: x-large;
+}
+.tile:hover{
+    animation: sprite 1.5s steps(3) infinite; /* The Animation */
+    /* border: 2px solid orangered; */
+}
+
+
+.f23{
+    background: transparent url('./assets/spritesheet_chickadee.png') 0 0 no-repeat;   
+}
+.f24{
+    background: transparent url('./assets/spritesheet_blue\ jay.png') 0 0 no-repeat;   
+}
+.f25{
+    background: transparent url('./assets/spritesheet_cardinal.png') 0 0 no-repeat;   
+}
+.f26{
+    background: transparent url('./assets/spritesheet_cedar\ waxwing.png') 0 0 no-repeat;   
+}
+.f27{
+    background: transparent url('./assets/spritesheet_house\ finch.png') 0 0 no-repeat;   
+}
+.f28{
+    background: transparent url('./assets/spritesheet_hummingbird.png') 0 0 no-repeat;   
+}
+.f29{
+    background: transparent url('./assets/spritesheet_magpie.png') 0 0 no-repeat;   
+}
+.f30{
+    background: transparent url('./assets/spritesheet_white_dove.png') 0 0 no-repeat;   
+}
+.f23, .f24, .f25, .f26, .f27, .f28, .f29, .f30{
+    background-size: 360px 360px;
+}
+.sel{
+    background-color: hsla(16, 100%, 50%,20%);
+    transform: scale(1.2);
+}
+@keyframes sprite {
+    from { background-position: -1% 101%; }
+    to { background-position: 99% 101%; }
+  }

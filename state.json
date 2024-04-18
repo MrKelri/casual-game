@@ -1,0 +1,103 @@
+{
+    "game": {
+        "lvlmap": [],
+        "selected": [],
+        "tiles_pull": [],
+        "wins": 0
+    },
+    "settings": {
+        "level_height": 3,
+        "level_width": 3,
+        "tiles": [
+            {
+                "tile_type": 23,
+                "symbol": "a"
+            },
+            {
+                "tile_type": 24,
+                "symbol": "b"
+            },
+            {
+                "tile_type": 25,
+                "symbol": "c"
+            },
+            {
+                "tile_type": 26,
+                "symbol": "f"
+            },
+            {
+                "tile_type": 27,
+                "symbol": "i"
+            },
+            {
+                "tile_type": 28,
+                "symbol": "i"
+            },
+            {
+                "tile_type": 29,
+                "symbol": "i"
+            },
+            {
+                "tile_type": 30,
+                "symbol": "i"
+            }
+        ],
+        "map_preset": [
+            {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "tile_type": 23
+            },
+            {
+                "x": 2,
+                "y": 1,
+                "z": 1,
+                "tile_type": 23
+            },
+            {
+                "x": 3,
+                "y": 1,
+                "z": 1,
+                "tile_type": 23
+            },
+            {
+                "x": 1,
+                "y": 2,
+                "z": 1,
+                "tile_type": 24
+            },
+            {
+                "x": 2,
+                "y": 2,
+                "z": 1,
+                "tile_type": 24
+            },
+            {
+                "x": 3,
+                "y": 2,
+                "z": 1,
+                "tile_type": 24
+            },
+            {
+                "x": 1,
+                "y": 3,
+                "z": 1,
+                "tile_type": 25
+            },
+            {
+                "x": 2,
+                "y": 3,
+                "z": 1,
+                "tile_type": 25
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "z": 1,
+                "tile_type": 25
+            }
+        ],
+        "level01": []
+    }
+}
