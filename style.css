@@ -31,11 +31,6 @@ body{
     user-select: none;
     font-size: x-large;
 }
-.tile:hover{
-    animation: sprite 1.5s steps(3) infinite; /* The Animation */
-    /* border: 2px solid orangered; */
-}
-
 
 .f23{
     background: transparent url('./assets/spritesheet_chickadee.png') 0 0 no-repeat;   
@@ -67,6 +62,7 @@ body{
 .sel{
     background-color: hsla(16, 100%, 50%,20%);
     transform: scale(1.2);
+    animation: sprite 1.5s steps(3) infinite; 
 }
 @keyframes sprite {
     from { background-position: -1% 101%; }
